@@ -411,3 +411,48 @@ body {
     border-top: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 120px;
+        line-height: 60px;
+    }
+
+    .header-title {
+        font-size: 16pt;
+        letter-spacing: 5px;
+    }
+
+    .home-page h2 {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 100px;
+        line-height: 50px;
+    }
+
+    .center-header {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .header-title {
+        font-size: 14pt;
+        letter-spacing: 3px;
+    }
+
+    .home-page {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .home-page h2 {
+        font-size: 250%;
+        position: relative;
+    }
+}
